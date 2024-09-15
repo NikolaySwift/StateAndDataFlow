@@ -15,6 +15,8 @@
 		8DBB6EA82C95F63300478F61 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DBB6EA72C95F63300478F61 /* LoginView.swift */; };
 		8DBB6EAA2C95F64100478F61 /* LoginViewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DBB6EA92C95F64100478F61 /* LoginViewViewModel.swift */; };
 		8DBB6EAC2C95F7F300478F61 /* RootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DBB6EAB2C95F7F300478F61 /* RootView.swift */; };
+		8DBB6EB02C96ED4600478F61 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DBB6EAF2C96ED4600478F61 /* User.swift */; };
+		8DBB6EB32C96ED8E00478F61 /* StorageManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DBB6EB22C96ED8E00478F61 /* StorageManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +29,8 @@
 		8DBB6EA72C95F63300478F61 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
 		8DBB6EA92C95F64100478F61 /* LoginViewViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewViewModel.swift; sourceTree = "<group>"; };
 		8DBB6EAB2C95F7F300478F61 /* RootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootView.swift; sourceTree = "<group>"; };
+		8DBB6EAF2C96ED4600478F61 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		8DBB6EB22C96ED8E00478F61 /* StorageManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StorageManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +63,8 @@
 		8DBB6E942C95810500478F61 /* StateAndDataFlow */ = {
 			isa = PBXGroup;
 			children = (
+				8DBB6EB12C96ED7700478F61 /* Services */,
+				8DBB6EAE2C96ED3700478F61 /* Models */,
 				8DBB6E952C95810500478F61 /* StateAndDataFlowApp.swift */,
 				8DBB6EA62C9589D600478F61 /* LoginView */,
 				8DBB6EA32C95812B00478F61 /* ContentView */,
@@ -101,6 +107,22 @@
 				8DBB6EAB2C95F7F300478F61 /* RootView.swift */,
 			);
 			path = Views;
+			sourceTree = "<group>";
+		};
+		8DBB6EAE2C96ED3700478F61 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				8DBB6EAF2C96ED4600478F61 /* User.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		8DBB6EB12C96ED7700478F61 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				8DBB6EB22C96ED8E00478F61 /* StorageManager.swift */,
+			);
+			path = Services;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -179,6 +201,8 @@
 				8DBB6E962C95810500478F61 /* StateAndDataFlowApp.swift in Sources */,
 				8DBB6EA82C95F63300478F61 /* LoginView.swift in Sources */,
 				8DBB6EA52C95816A00478F61 /* ContentViewViewModel.swift in Sources */,
+				8DBB6EB02C96ED4600478F61 /* User.swift in Sources */,
+				8DBB6EB32C96ED8E00478F61 /* StorageManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
