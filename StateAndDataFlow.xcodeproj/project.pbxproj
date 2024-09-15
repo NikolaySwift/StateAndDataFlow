@@ -63,9 +63,9 @@
 		8DBB6E942C95810500478F61 /* StateAndDataFlow */ = {
 			isa = PBXGroup;
 			children = (
+				8DBB6E952C95810500478F61 /* StateAndDataFlowApp.swift */,
 				8DBB6EB12C96ED7700478F61 /* Services */,
 				8DBB6EAE2C96ED3700478F61 /* Models */,
-				8DBB6E952C95810500478F61 /* StateAndDataFlowApp.swift */,
 				8DBB6EA62C9589D600478F61 /* LoginView */,
 				8DBB6EA32C95812B00478F61 /* ContentView */,
 				8DBB6EAD2C95F7FB00478F61 /* Views */,
